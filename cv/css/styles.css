@@ -1,0 +1,46 @@
+body {
+    background:lightblue;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.Header-Container {
+    background: black;
+    width: 100vw;
+    padding: 1rem 0;
+  
+}
+.Header-Menu {
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+   
+}
+
+.Header-Menu > li {
+list-style: none;
+text-decoration: none;
+}
+.Header-Menu > li > a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    padding: .5em;
+    }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
