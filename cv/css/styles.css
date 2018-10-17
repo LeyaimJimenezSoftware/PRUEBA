@@ -7,7 +7,14 @@ body {
     border: 0;
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
+    
+}
+h1 {
+    padding: 0;
+}
 
+img{
+    height: 100%;
 }
 .Header-Container {
     background: black;
@@ -36,7 +43,17 @@ text-decoration: none;
     cursor: pointer;
     padding: .5em;
     }
-
+.Image-container  {
+    height: 50%;
+    border-radius: 50%;
+}
+.Personal-Container {
+    height: 50%;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
